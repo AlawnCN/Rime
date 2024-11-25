@@ -6,8 +6,8 @@ dist/
 build/
 sync/
 installation.yaml
-user.yaml
-*.custom.yaml
+#user.yaml
+#*.custom.yaml
 !others/**/*.custom.yaml
 
 custom_phrase_double.txt
