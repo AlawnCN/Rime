@@ -1,0 +1,24 @@
+patch:
+  disable_english: true
+  # "default.custom.yaml":
+  #   schema: rime_ice
+  schema_list:
+  - schema: rime_ice               # 雾凇拼音（全拼）
+    disable_english: true
+    switches:
+      - name: ascii_mode
+        reset: 0
+        states: [中文, 西文]
+    # - name: ascii_mode
+    #   reset: 1  # 设置为1表示每次切换时默认启用中文输入
+    #   states: ["中文"]  # 只保留中文输入模式
+    # - name: disable_english_input  # 新增开关
+    #   reset: 1
+    #   states: ["禁用英文"]  # 只保留中文输入
+  # ascii_composer:
+  #   good_old_caps_lock: false  # 禁用 Caps Lock 切换到英文模式
+  #   switch_key:
+  #     Shift_L: commit_code  # 按下 Shift 仍然保持中文模式
+  menu:
+    page_size: 6  # 候选词个数
+
